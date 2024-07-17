@@ -1,0 +1,52 @@
+html body{
+    background-color: #ACCFFE;
+}
+
+.image-2{
+    height: 50vh;
+    position: absolute;
+    right: 7rem;
+    z-index: -1;
+}
+
+.image-1{
+    height: 100vh;
+    position: absolute;
+    left: 5rem;
+    top: 0;
+}
+
+.heading{
+    font-family: "Roboto", sans-serif;
+}
+
+.form{
+    border-radius: 1rem;
+}
+
+.inp-icon{
+    color: #acacac;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: .1rem solid #acacac;
+    outline: none;
+}
+
+input::placeholder{
+    text-transform: capitalize;
+    color: #acacac;
+}
+
+.form-btn{
+    background-color: #99CCFF;
+    border: none;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
